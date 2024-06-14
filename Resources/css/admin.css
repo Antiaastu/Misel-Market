@@ -1,0 +1,40 @@
+.catagories {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2.section-title {
+    margin: 0;
+}
+
+.filter-btn-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-btn-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.filter-btn {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-btn:hover {
+    background-color: #333;
+    color: #fff;
+}

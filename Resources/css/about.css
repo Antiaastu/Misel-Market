@@ -1,0 +1,287 @@
+
+main {
+    padding: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: relative;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.grid-item img {
+    float: left;
+    max-width: 100%;
+    object-fit: cover;
+    height: 200px;
+    margin: 3px 5px;
+}
+
+.grid-item p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media-icons i {
+    width: 30px;
+    margin: 0 5px;
+}
+
+
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;   
+}
+
+/* .navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color:#eef1ee;
+  }
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+.add-first {
+color: #cccccc;
+font-size: 0.75rem;
+margin-left: 19px;
+}
+
+.add-sec {
+font-size: 0.90rem;
+margin-left: 8px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: plum;
+    width: 620px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #febd68;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #0f1111;
+}
+
+.nav-search :hover {
+    border: 2px solid #febd68;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 0.80rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 28px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 12px;
+    color: white;
+}
+.panel-options:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease; 
+
+}
+.panel-options p:hover{
+    color: yellow;
+}
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;    
+}
+
+.panel-deals {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+i{
+    color: white;
+}
+#social-media-icons{
+    display: flex;
+    justify-content: center;
+}
+#social-media-icons i{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+#social-media-icons p{
+    font-size: 25px;
+} */
+.header.scroll,
+.header.scroll .nav-bar ul li a,
+.header.scroll .right ul li a,
+.header.scroll .logo-text {
+    color: white; /* Text color when scrolling */
+
+}
+.video {
+    text-align: center;
+    margin-top: 20px;
+    margin-right:50px;
+    margin-left:50px;
+
+}
+
+.video video {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;  
+        height: auto;  
+    }
+
+    .logo h1 {
+        font-size: 1em;  
+    }
+
+    .add-first {
+        margin-left: 0; 
+    }
+
+    .add-sec {
+        margin-left: 0;  
+    }
+
+    .nav-search {
+        width: 100%;  
+    }
+
+    .search-select,
+    .search-input,
+    .search-icon {
+        width: 100%;
+    }
+
+    .search-select {
+        margin-bottom: 5px; 
+    }
+
+    .nav-cart i {
+        font-size: 20px; 
+    }
+
+    #social-media-icons i {
+        margin: 2px;  
+        font-size: 18px; 
+    }
+
+    #social-media-icons p {
+        font-size: 18px; 
+    }
+}

@@ -1,0 +1,366 @@
+/* * {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;   
+} */
+
+/* .navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+/* .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color:#eef1ee;
+  } */
+/* .border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+} */
+
+
+/* .add-first {
+color: #cccccc;
+font-size: 0.75rem;
+margin-left: 19px;
+}
+
+.add-sec {
+font-size: 0.90rem;
+margin-left: 8px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: plum;
+    width: 620px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #febd68;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #0f1111;
+}
+
+.nav-search :hover {
+    border: 2px solid #febd68;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 0.80rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 28px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+ */
+
+/* .panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 12px;
+    color: white;
+}
+.panel-options:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease; 
+
+}
+.panel-options p:hover{
+    color: yellow;
+}
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;    
+}
+
+.panel-deals {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+i{
+    color: white;
+} */
+
+
+/* body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+ } */
+ 
+ .container {
+    max-width: 500px;
+    margin: 80px auto;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ }
+ 
+ 
+ h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+ }
+ 
+ .form-group {
+    margin: 20px;
+ }
+ 
+ label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ button[type="submit"], .send {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ }
+ 
+ button[type="submit"]:hover, .send:hover {
+    background-color: #555;
+ }
+ 
+ .hidden {
+    display: none;
+ }
+ 
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo h1 {
+        font-size: 1em;
+    }
+
+    .add-first,
+    .add-sec {
+        margin-left: 0;
+    }
+
+    .nav-search {
+        width: 100%;
+    }
+
+    .search-select,
+    .search-input,
+    .search-icon {
+        width: 100%;
+    }
+
+    .search-select {
+        margin-bottom: 5px;
+    }
+
+    .nav-cart i {
+        font-size: 20px;
+    }
+} 
+.header {
+    position: fixed;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 50px;
+    width: 100%;
+    top: 0; 
+    z-index:999; 
+    font-weight:bold;    
+}
+
+
+.header.scroll,
+.header.scroll .nav-bar ul li a,
+.header.scroll .right ul li a,
+.header.scroll .logo-text {
+    color: black; /* Text color when scrolling */
+}
+
+
+.logo {
+    margin-right: auto;
+    width: 15%;
+    display:flex;
+    align-items: center;
+    animation: turn 6s linear infinite;
+}
+.logo img{
+    height:50px;
+    border-radius: 50%;
+}
+.logo-text {
+    background-color: transparent;
+    border:solid 1px;
+    /* color:black; */
+    padding: 5px 10px 5px 2px; /* Adjust padding as needed */
+    margin-left: 0px; /* Adjust margin as needed */
+    font-size: 1.2em; /* Adjust font size as needed */
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(55, 20, 30, 25);
+   color:black;
+   margin-bottom:5px;
+}
+.logo:hover img {
+    transform: rotate(10deg); /* Rotate the logo image on hover */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.logo:hover .logo-text {
+    transform: skewX(-10deg); /* Skew the logo text on hover */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.main-nav {
+    width: 60%;
+    flex-grow: 1;
+    
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-right: 60px;
+}
+
+.right {
+    display:flex;
+    margin-left: 20px;
+    text-align: right;
+    width: 30%;
+    
+   
+}
+
+.right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items:center;
+}
+
+.right ul li {
+    margin-right: 15px;
+}
+.right ul .get{
+    border:solid 1px;
+    border-radius:5px;
+    padding: 10px 15px;
+    background-color:green;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.nav-bar ul li a,
+.right ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav-bar ul li a:hover,
+.right ul li a:hover {
+    color: gray;
+}

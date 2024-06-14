@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/ionicons/css/ionicons.min.css">
+    <link rel="icon" href="../../Resources/images/logo.png" type="image/png" />
+    <title>ምስል Market</title>
+    <link rel="stylesheet" href="../../Resources/css/sell.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="sell-title">Sell Your Item</h1>
+
+        <div class="sell-info-container">
+            <h2 class="sell-heading">Why Share Your Item on ምስል Market?</h2>
+            <p class="sell-info">Connect with a vibrant community of art lovers and enthusiasts. Share your creativity, find
+                interested buyers, and showcase your talent to a broader audience. Your unique items deserve to be
+                discovered!</p>
+        </div>
+
+        <div class="form">
+            <label for="name">Name:*</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:*</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone:*</label>
+            <input type="tel" id="phone" required>
+
+            <label for="category">Category:*</label>
+            <select id="category">
+                <option value="Painting">Painting</option>
+                <option value="Sketch">Sketch</option>
+                <option value="Photography">Photography</option>
+                <option value="Digital_Art">Digital Art</option>
+                <option value="Religious">Religious</option>
+            </select>
+
+            <label for="location">Location:*</label>
+            <select id="location">
+                <option value="Addis_Ababa">Addis Ababa</option>
+                <option value="Adama">Adama</option>
+                <option value="Hawassa">Hawassa</option>
+                <option value="Bahirdar" selected>Bahirdar</option>
+                <option value="Gondar">Gondar</option>
+                <option value="Mekelle">Mekelle</option>
+                <option value="Jimma">Jimma</option>
+                <option value="Dire_Dawa">Dire Dawa</option>
+                <option value="Harar">Harar</option>
+                <option value="Arba_Minch">Arba Minch</option>
+                <option value="Debre_Markos">Debre Markos</option>
+                <option value="Jijiga">Jijiga</option>
+                <option value="Shashamane">Shashamane</option>
+                <option value="Bishoftu">Bishoftu</option>
+                <option value="Nekemte">Nekemte</option>
+                <option value="Assela">Assela</option>
+            </select>
+
+            <label for="picture">Choose Picture:*</label>
+            <input type="file" id="picture" accept="image/*" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" rows="4"></textarea>
+
+            <label for="social-media">Alternative Social Media Link:</label>
+            <input type="text" id="social-media">
+
+            <label for="price">Price:*</label>
+            <input type="number" id="price" required>
+
+            <a href="home.html"><button type="button" class="submit-btn" onclick="addProduct()">post</button></a>
+        </div>
+    </div>
+    <script src="../../Resources/js/sell.js"></script>
+</body>
+
+</html>

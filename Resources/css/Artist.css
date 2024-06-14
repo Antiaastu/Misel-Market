@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #artists-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .artist {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  /* footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    
+  } */
+  /* .container{
+    max-width: 1200px;
+    padding:2rem;
+    margin:0 auto;
+ }
+ 
+ .admin-product-form-container.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+ }
+ 
+ .admin-product-form-container form{
+    max-width: 50rem;
+    margin:0 auto;
+    padding:2rem;
+    border-radius: .5rem;
+    background: var(--bg-color);
+ }
+ 
+ .admin-product-form-container form h3{
+    text-transform: uppercase;
+    color:var(--black);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+ }
+ 
+ .admin-product-form-container form .box{
+    width: 100%;
+    border-radius: .5rem;
+    padding:1.2rem 1.5rem;
+    font-size: 1.7rem;
+    margin:1rem 0;
+    background: var(--white);
+    text-transform: none;
+ }
+ 
+ .product-display{
+    margin:2rem 0;
+ }
+ 
+ .product-display .product-display-table{
+    width: 100%;
+    text-align: center;
+ }
+ 
+ .product-display .product-display-table thead{
+    background: var(--bg-color);
+ }
+ 
+ .product-display .product-display-table th{
+    padding:1rem;
+    font-size: 2rem;
+ }
+ 
+ 
+ .product-display .product-display-table td{
+    padding:1rem;
+    font-size: 2rem;
+    border-bottom: var(--border);
+ }
+ 
+ .product-display .product-display-table .btn:first-child{
+    margin-top: 0;
+ }
+ 
+ .product-display .product-display-table .btn:last-child{
+    background: crimson;
+ }
+ 
+ .product-display .product-display-table .btn:last-child:hover{
+    background: var(--black);
+ }
+  */
+ 
+  
+  @media only screen and (max-width: 768px) {
+    .painting {
+      width: 100%;
+    }
+  }
